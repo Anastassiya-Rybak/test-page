@@ -147,10 +147,12 @@ h1 {
 }
 .product-info__btns {
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 20px 0;
 }
 .product-info__btns button{
     width: calc(50% - 7px);
+    min-width: 165px;
     padding: 12px;
     font-size: 18px;
     text-align: center;
