@@ -1,0 +1,24 @@
+@import url(./fonts.css);
+@import url(./reset.css);
+@import url(./page.css);
+
+:root {
+    /*colors*/
+    --mainColor: #e61771;
+}
+.container {
+    margin: 0 auto;
+    width: 85%;
+    max-width: 1366px;
+}
+.d-f-r {
+    display: flex;
+    flex-direction: row;
+}
+.d-f-c {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    max-width: 100%;
+}

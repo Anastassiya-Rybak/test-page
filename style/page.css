@@ -1,0 +1,206 @@
+/* Шапка страницы start */
+h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 15px 0 5px;
+}
+.product-rating i {
+    color: gold;
+    font-size: 8px;
+    font-weight: 600;
+    margin-right: 4px;
+}
+.product-rating span {
+    opacity: 0.7;
+}
+.page-content {
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+/* Шапка страницы end */
+
+/* Слайдер продукта start */
+.sales-wrapper {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+}
+.sale {
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    left: 0;
+    /* padding-left: 5px; */
+}
+.sale p {
+    color: var(--mainColor);
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0 5px 5px 5px;
+}
+.sale span {
+    background-color: var(--mainColor);
+    color: #fff;
+    padding: 5px 15px 5px 5px;
+    font-size: 14px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
+.bonus {
+    position: absolute;
+    z-index: 1000;
+    top: 10px;
+    right: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px 5px 10px 12px;
+    color: var(--mainColor);
+    background-color: rgb(243, 243, 243);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 3px;
+}
+.product-slider, .product-info {
+    width: 50%;
+}
+.product-slider {
+    align-items: center;
+}
+.big-slider .slick-list {
+    width: 100%;
+    margin: 0 auto;
+    border: 0.5px solid rgba(0, 0, 0, 0.231);
+    border-radius: 4px;
+}
+.big-slider .slick-slide {
+    overflow: hidden;
+    height: 68vh;
+}
+.big-slider .slick-slide img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+.min-slider .slick-list {
+    width: 85%;
+    margin: 5px auto 0;
+}
+.min-slider .slick-slide {
+    border: 0.5px solid rgba(0, 0, 0, 0.231);
+    border-radius: 2px;
+    margin-right: 5px;
+}
+.min-slider .slick-slide img {
+    max-width: 80%;
+    margin: 0 auto;
+}
+.tracking-sliders {
+    width: 85%;
+    margin: 10px auto 0;
+    height: 6px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.274);
+}
+.scroller {
+    cursor: pointer;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.655);
+    border-radius: 10px;
+}
+/* Слайдер продукта end */
+
+/* Инфо часть страницы start */
+.product-info__first-part div {
+    width: calc(41% - 7px);
+    justify-content: space-around;
+}
+.product-info__first-part__old-price {
+    text-decoration: line-through;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.331);
+}
+.product-info__first-part__price {
+    font-size: 24px;
+    font-weight: 800;
+}
+.product-info__first-part__saved-product {
+    align-items: center;
+}
+.product-info__first-part__saved-product a {
+    color: rgba(0, 0, 0, 0.468);
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 4px
+}
+.product-info__first-part__saved-product a:hover {
+    background-color: rgba(24, 24, 24, 0.084);
+}
+.product-info__first-part__saved-product a:first-child {
+    margin-bottom: 5px;
+}
+.product-info__first-part__saved-product a i {
+    margin-right: 5px;
+}
+.product-info__btns {
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.product-info__btns button{
+    width: calc(50% - 7px);
+    padding: 12px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.product-info__btns button:first-child {
+    background-color: var(--mainColor);
+    color: #fff;
+    border: none;
+}
+.product-info__btns button:first-child:hover {
+    opacity: 0.9;
+    transition: 0.6s;
+}
+.product-info__btns button:last-child {
+    background-color: #fff;
+    color: var(--mainColor);
+    border: 1px solid var(--mainColor);
+}
+.product-info__btns button:last-child:hover {
+    background-color: #cd00ab17;
+    transition: 0.6s;
+}
+.product-info__data {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+td {
+    text-align: left;
+    padding: 20px;
+}
+tr:nth-child(odd) {
+    background-color: #dddddd4d;
+}
+tr td:first-child {
+    width: 40%;
+}
+.option-link {
+    text-decoration: underline;
+    color: #0075cd;
+    padding: 10px 5px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.option-link:hover {
+    background-color: #0091ff1a;
+    transition: 0.6s;
+}
+/* Инфо часть страницы end */

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Tahoma";
+    src: url("./fonts/Tahoma\ Regular\ font.ttf") format("ttf"), 
+}
+@font-face {
+    font-family: "Tahoma";
+    src: url("./fonts/TAHOMA_0.TTF") format("ttf"), 
+}
+@font-face {
+    font-family: "Tahoma";
+    src: url("./fonts/TAHOMAB0.TTF") format("ttf"), 
+}
+@font-face {
+    font-family: "Tahoma";
+    src: url("./fonts/TAHOMABD.TTF") format("ttf"), 
+}
+
+* {
+    font-family: 'Tahoma', sans-serif;
+}
